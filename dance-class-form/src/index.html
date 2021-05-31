@@ -1,0 +1,83 @@
+<body>
+  <header class="header">
+  <h1 id="title"> Dance Class Application</h1>
+  <p id="description"> Application for dance Class</p>
+    <hr>
+    <div class ="row">
+  <form id="survey-form" method="post"> 
+    </div>
+    <div class="row">
+      <label id="name-label" for="name"><b>Name:</b></label>
+   <input type="text" name="name" id="name" size=50 class="input-text" placeholder=" Name" required>
+    </div>
+<div class= "row">
+  <label id="email-label" for="email"><b>e-mail:</b></label>
+ <input type="email" name="email" id="email" size=50 class="input-text"placeholder="email" required> 
+    </div>
+    <div class="options">
+    <label id="number-label" for="phone"><b>Phone Number:</b></label>
+ <input type="tel" id="phone" name="phone" size=30 class="input-text"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+    </div><br>
+    <div class="radio">
+      <label for="time" class="time"><b>When  are you available?</b></label>
+  
+  <select name="drop-down" id="drop-down"> 
+    
+  <option value="morning"> Morning</option> 
+  <option value="afternoon"> Afternoon</option> 
+   <option value="night"> Evening</option> 
+    
+   </select>
+  </div>
+      <br>
+   <div class="dance">
+     <label for="style"><b> What do you want to learn:</label></b><br>
+    <input type="radio" id="ballet" name="style" value="Ballet">
+  <label for="bale">Ballet</label>
+  <input type="radio" id="tango" name="style" value="tango">
+  <label for="tango">Tango</label>
+  <input type="radio" id="jazz" name="style" value="jazz">
+  <label for="jazz">Jazz</label><br>
+      <input type="radio" id="hip-hop" name="style" value="hip-hop">
+  <label for="hip-hop">Hip-Hop</label>
+      <input type="radio" id="tap" name="style" value="tap">
+ 
+  <label for="tap">Tap</label>
+  <input type="radio" id="flamenco" name="style" value="flamenco">
+  <label for="flamenco">Flamenco</label><br>
+   <input type="radio" id="salsa" name="style" value="salsa">
+     <label for="salsa">Salsa</label>
+     <input type="radio" id="belly" name="style" value="belly">
+     <label for="belly">Belly Dance</label>
+     <input type="radio" id="contemporary" name="style" value="contemporary">
+     <label for=contemporary>Contemporary</label>
+     </div><br>
+      <div>
+        <label for="level"><b>What level do you want to take:</label></b><br>
+       <input type="checkbox" id="vehicle1" name="level1" value="Bike">
+  <label for="level1"> Beginner</label><br>
+  <input type="checkbox" id="level2" name="level2" value="intermediate">
+  <label for="level2"> Intermediate</label><br>
+  <input type="checkbox" id="level3" name="level3" value="advanced">
+  <label for="level3"> Advanced</label>
+      </div><br>
+ <div class="comment">
+   <label id="info" class="info"><b>Additional Information</b></label></div>
+      <div>
+     <textarea name="comments" rows =5 cols = 50></textarea><br><br>
+      </div>
+      <div class="submit">
+      <button id="submit" type="submit">Submit</button>
+    </div>
+     
+  
+  
+    
+  
+  
+  
+  </form>
+  
+</body>

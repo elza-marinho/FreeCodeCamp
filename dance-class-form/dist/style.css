@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#F2E0F7;
+  font-family:Mali;
+  text-align: center;
+  display:block;
+  
+  
+
+}
+  .header {
+  padding: 0 0.650rem;
+  margin-bottom: 1.900rem;
+}
+
+h1{
+  color:darkblue;
+  text-align:center;
+}
+
+#survey-form{
+  
+  margin 2em;
+  padding:2px;
+  
+ 
+  
+}
+
+.input-text{
+  border-radius:0.25rem;
+  padding:5px 5px 5px 5px;
+  margin-top:5px;
+  
+  
+ 
+}
+
+.options{
+position:relative;
+
+  
+}
+
+
+#survey-form{
+  padding:auto;
+  margin:auto;
+  max-width:80%;
+  
+  
+}
+
+.dance{
+  position:relative;
+  margin-top:5px;
+}
+  
+
+
+.info{
+  margin-top:2em;
+  
+}
+#drop-down{
+width:100px;
+ height: 30px;
+}
+
+#submit{
+  height:30px;
+  width:100px;
+}
