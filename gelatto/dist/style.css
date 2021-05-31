@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.{
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+ 
+  background:#8A0808;
+  color: white;
+  text-align: center;
+   position: relative;
+   z-index: 999;
+   width: 100%;
+}
+
+header:after{
+  content: "";
+  display: table;
+  clear: both;
+  width:100%;
+}
+
+.header-img{
+ position: absolute;
+height: 80px;
+width:80px;
+padding: 10px 0;
+display:flex;
+flex-direction: row;
+  
+}
+.logo-text{
+  font-size: 35px;
+  font-family: 'Italiana';
+  font-weight:bold;
+  text-transform: uppercase;
+
+  
+  
+}
+
+nav-bar {
+	display: flex;
+	width:100%;
+  overflow:auto;
+}
+nav-link{
+ 
+   float: right;
+  
+}
+
+ nav ul {
+   float: right;
+ 
+   margin: 0;
+   padding:0;
+   list-style-type: none;
+   font-size:18px;
+   
+}
+
+ nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 20px;
+  position: relative;
+ 
+}
+
+ nav  a {
+ 
+  color: white;
+ 
+  text-decoration: none;
+   font-size: 18px;
+   padding: 15px 15px;
+   
+}
+nav a:hover {
+  color:#F2F5A9 ;
+}
+
+nav a::before{
+  content: "";
+  display:block;
+  height: 5px;
+  width:100%;
+  background-color: white;
+  position: absolute;
+  top:0;
+  width:0%;
+  
+  transition: all ease-in-out 150ms;
+  
+}
+
+nav a:hover::before{
+  width:100%;
+}
+about{
+  padding-top: 50px;
+}
+.slogan{
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  padding-top:15px;
+ 
+}
+
+.phrase{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-images{
+  display:flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.container-image{
+  width:25%;
+  padding:15px;
+
+  
+}
+
+img{
+  height:350px;
+  width:320px;
+ 
+}
+
+#how-its-made{
+  display: flex;
+  align-content:center;
+}
+
+
+#video{
+  display:flex;
+  padding-top:35px;
+  margin-right: auto;
+  margin-left: auto;
+  
+ 
+}
+@media screen and(max-width:600px ){
+
+  
+	
+}
+.contact{
+ 
+  padding-top: 25px;
+  margin-left:3rem;
+  
+ 
+  
+}
+#form{
+ 	display: flex;
+  align-content: center;
+  flex-direction: column;
+	padding:2rem;
+
+  
+}
+
+
+input[type=text], [type=email] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #DF0101;
+  border-radius:5px;
+}
+
+textarea{
+  border: 2px solid #DF0101;
+  border-radius:5px;
+  width: 30%;
+}
+
+#submit{
+  border:2px solid;
+  border-radius:5px;
+  width:15%;
+  
+  
+}
+
+.product-title{
+  text-align: center;
+  color: #8A0808;
+}
+
+.product-detail{
+  text-align: left;
+  font-size: 16px;
+}
+
+footer{
+  padding:25px 50px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #8A0808;
+  
+}
+.social-media-links{
+  color: white;
+  
+}
+
+.social-media ul {
+  display:flex;
+  list-style-type: none;
+}
+
+.social-media ul li{
+  margin:0;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+   
+}
+
+.social-media ul li a{
+  color: white;
+  text-decoration:none;
+  font-size: 14px;
+}
+.social-media ul li a:hover{
+  color:#F2F5A9; 
+}
